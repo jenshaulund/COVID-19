@@ -28,6 +28,6 @@ print('Field names are:' + ', '.join(field for field in fields))
 
 #  printing first 5 rows 
 print('\nFirst 5 rows are:\n') 
-for row in rows[:5]: 
+for row in rows[:15]: 
     print('Row contains:' + ', '.join(col for col in row))
 
