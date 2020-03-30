@@ -26,6 +26,8 @@ print("Total number of rows: %d"%(csvreader.line_num))
 # printing the field names
 print('Field names are:' + ', '.join(field for field in fields))
 
+print("Lat is the {0:1d}".format(fields.index("Long")) + " field")
+
 #  printing first 15 rows 
 print('\nFirst 5 rows are:\n') 
 for row in rows[:15]: 
